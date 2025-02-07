@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 BUILD_ROOT="$PWD"
-QSSI_ROOT="${BUILD_ROOT}/LA.QSSI.13.0"
-VENDOR_ROOT="${BUILD_ROOT}/LA.UM.9.14.1"
+QSSI_ROOT="${BUILD_ROOT}/LA.QSSI.14.0"
+VENDOR_ROOT="${BUILD_ROOT}/LA.UM.9.14.r1"
 
 function build_qssi {
     cd "$QSSI_ROOT"
