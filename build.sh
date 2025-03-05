@@ -3,6 +3,7 @@
 BUILD_ROOT="$PWD"
 QSSI_ROOT="${BUILD_ROOT}/LA.QSSI.14.0"
 VENDOR_ROOT="${BUILD_ROOT}/LA.UM.9.14.r1"
+LE_ROOT="${BUILD_ROOT}/LE.UM.4.3.1.r1"
 
 function build_qssi {
     cd "$QSSI_ROOT"

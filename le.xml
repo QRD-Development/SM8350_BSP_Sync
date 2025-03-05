@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype" review="null"/>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/LE.UM.4.3.1.r1"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="clo-ype" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="refs/heads/openembeded.org/thud"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="clo-ype" revision="7b515c6df507847447b0c2f32bc2fa41cd030907"/>
+  <project name="clo/filesystems/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="refs/heads/core-technologies.lnx.3.0.r10"/>
+  <project groups="cyborg" name="clo/la/kernel/build" path="src/device/qcom/kernelscripts" revision="3d8c4c733465b10f1d5053fb98f6e228a36513aa" upstream="refs/heads/msm-5.4.r2"/>
+  <project groups="cyborg" name="clo/la/kernel/msm-5.4" path="src/kernel/msm-5.4" revision="1415443adabb71d5d9abe15199a7ee40235cd55b" upstream="refs/heads/msm-5.4.r2"/>
+  <project name="clo/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="9f544a9fb6724d82885046f4a500ead4ae0d47d6" upstream="refs/heads/yocto.lnx.3.1.r4"/>
+  <project name="clo/le/meta-qti-core" path="poky/meta-qti-core" revision="4c3b18177ae0687e0a97c01fb0ee5c7a77bc2e31" upstream="refs/heads/core-technologies.lnx.3.0.r10"/>
+  <project name="clo/le/meta-qti-display" path="poky/meta-qti-display" revision="6b6d870f9ac469d7a1ca1405604dd554d20e98f4" upstream="refs/heads/display-le.lnx.1.0.r1"/>
+  <project name="clo/le/meta-qti-security" path="poky/meta-qti-security" revision="c787ac8529509617a7ceaaf585fcfdca6ee26026" upstream="refs/heads/sec-userspace.lnx-meta.6.1.r1"/>
+  <project name="clo/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="b8b6e56cd212f90b8bb0a04a0ea944af6853fc0d" upstream="refs/heads/le-sepolicy.lnx.3.0.r8"/>
+  <project name="clo/le/meta-selinux" path="poky/meta-selinux" revision="2c176184de59d1b991deade17613758928fe3606" upstream="refs/heads/le-sepolicy.lnx.3.0.r8"/>
+  <project name="clo/la/platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project name="clo/la/platform/hardware/libhardware" path="src/hardware/libhardware" revision="5197d47879deacd54ca293a5828e72d22f5b85db" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project groups="qcom,default" name="clo/la/platform/hardware/qcom/display" path="src/hardware/qcom/display" revision="3117febbd1fe80a030a3cde89cb66f4f3498aa13" upstream="refs/heads/display.lnx.7.0.r2"/>
+  <project name="clo/la/platform/system/core" path="src/system/core" revision="d85541cc2ccf88b2a4f203009ee4ca221752af96" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project name="clo/la/platform/system/extras" path="src/system/extras" revision="23542fe78ae3aca77fcf91348f805e7865dfcb35" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project groups="cyborg" name="clo/la/platform/vendor/opensource/display-drivers" path="src/kernel/msm-5.4/techpack/display" revision="8a7772fc5bd0dd6d17d173985ef015889b116360" upstream="refs/heads/display-kernel.lnx.5.4.r2"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/display-commonsys-intf" path="src/vendor/qcom/opensource/commonsys-intf/display" revision="bf4bf7a57a003b10b2716512d85bd96c39790763" upstream="refs/heads/display-sysintf.lnx.1.2.r9"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/display/sdm-composer" path="src/vendor/qcom/opensource/display/sdm-composer" revision="6f9d9978f3d1d46736496a9bcc513433b85496ed" upstream="refs/heads/display-le.lnx.1.0.r1"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="a7b614f12dff95f75d7ee5a4cbdfb1a5e65f9ca2" upstream="refs/heads/le-frameworks.lnx.2.1.r4"/>
+  <project name="clo/le/qti-conf" path="poky/qti-conf" revision="b8d87da64a22863d0edbd16a67c214902232e4d1" upstream="refs/heads/yocto.lnx.3.1.r4">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+</manifest>
